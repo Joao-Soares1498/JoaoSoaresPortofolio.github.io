@@ -1,0 +1,218 @@
+.bg{
+    background: url(Assets/Images/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.intro{
+    height: 100vh;
+}
+.title{
+    padding-top: 250px;
+    text-align: center;
+    cursor:default;
+}
+
+.title-text{
+    color: #EEAD2D;
+    font-size: 35px;
+    font-family: Tourney;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+
+.title-name{
+    font-family: Oswald;
+    font-weight: bold;
+}
+
+.subtitle{
+    color:grey;
+    text-align: center;
+    font-family: Cardo;
+    font-size: 25px;
+}
+
+.socials{
+    display: block;
+    text-align: center;
+}
+.socials img{
+    padding: 80px;
+    filter: invert(100%);
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.menu-items {
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    font-family: Cardo;
+}
+
+.menu-items:hover{
+    text-decoration: none;
+    color: #EEAD2D;
+    
+}
+
+.arrow-right{
+    margin-right: 10px;
+    height: 15px;
+    filter: invert(100%);
+}
+
+
+
+
+#arrow{
+    z-index: 1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+    border: 4px solid black;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    filter: invert(100%);
+    cursor: pointer;
+}
+
+
+.mid{
+    margin-left: 40px ;
+    margin-right: 40px;
+    padding: 20px;
+    background-color: dimgray;
+    height: auto;
+    border-radius: 10px;
+}
+
+.subject{
+    border: 2px dashed #EEAD2D;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.subject h2{
+    font-size: 28px;
+    font-family: Tourney;
+    color: #EEAD2D;
+    
+}
+
+#projects{
+    padding: 20px;
+}
+
+#projects h3{
+    font-family: Oswald;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    color: white;
+}
+
+.project{
+    padding-right: 50px;
+    display: flex;
+}
+
+.project-text{
+    font-family: Cardo;
+    padding: 10px;
+    color:lightgray;
+}
+
+.project-text input{
+    background-color: white;
+    border: 2px solid #EEAD2D;
+    color: #EEAD2D;
+    background-color: dimgray;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.project-text input:hover{
+    background-color: #EEAD2D;
+    color: white;
+    animation: forwards ;
+}
+
+
+
+.carousel{
+    padding: 10px;
+}
+
+.carousel-caption{
+    background-color: dimgray;
+    padding:5px;
+    border-radius: 50px;
+}
+
+.carousel h5{
+    color:white
+}
+
+.carousel p{
+    color: lightgray;
+    margin: 7px;
+}
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-indicators{
+    filter: invert(100%);
+}
+
+
+#skills{
+    display: flex;
+    padding: 25px;
+}
+
+.skills-category{
+    font-size: 20px;
+    font-family: Oswald;
+    text-transform: uppercase;
+    padding-right: 50px;
+    color: white;
+}
+
+.skills-list{
+    font-size: 18px;
+    font-family: Cardo;
+    text-transform: none;
+    color: lightgray;
+}
+
+#about{
+    font-family: Cardo;
+    font-size: 18px;
+    color: lightgray;
+}
+
+
+/*Fonts*/
+
+@font-face {
+    font-family: "Cardo";
+    src: url(Assets/Fonts/Cardo/Cardo-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url(Assets/Fonts/Oswald/static/Oswald-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Tourney";
+    src: url(Assets/Fonts/Tourney/static/Tourney-Regular.ttf);
+}
